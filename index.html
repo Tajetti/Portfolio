@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Portifólio | Alvaro Tajetti</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="stlye.css">
+        <script src="main.js"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+            rel="stylesheet">
+    </head>
+
+    <body>
+        <header class="container-menu">
+            <div class="menubar">
+                <div class="menu-title">
+                    <a href="index.html">PORTFOLIO</a>
+                </div>
+                <div class="menu">
+                    <ul>
+                        <li><a href="#Home">Home</a></li>
+                        <li><a href="#Sobre">Sobre</a></li>
+                        <li><a href="#Habilidades">Habilidades</a></li>
+                        <li><a href="#Projetos">Projetos</a></li>
+                        <li><a href="#Contato">Contato</a></li>
+                    </ul>
+                </div>
+            </div>
+            <span class="open-btn" onclick="abrirSideBar()">&#9776;</span>
+        </header>
+        
+        <div id="sidebar" class="sidebar">
+            <a href="#Home" onclick="fecharSidebar()">Home</a>
+            <a href="#Sobre" onclick="fecharSidebar()">Sobre</a>
+            <a href="#Habilidades" onclick="fecharSidebar()">Habilidades</a>
+            <a href="#Projetos" onclick="fecharSidebar()">Projetos</a>
+            <a href="#Contato" onclick="fecharSidebar()">Contato</a>
+        </div>
+
+        <section class="container-home" id="Home">
+            <div class="ContainerApresentacao">
+                <p style="font-size: 30px;">Hi! I'm</p>
+                <h1>Alvaro Tajetti</h1>
+                <p style="font-size: 30px;">Software Engineer Student</p>
+                <a href="assets/cv/Curriculo Alvaro.pdf" download>Download
+                    CV</a>
+            </div>
+            <div class="ContainerFoto">
+                <a href="https://github.com/Tajetti"><img
+                        src="assets/img/ImgPessoal/IMG_20250106_142824880.jpg   "
+                        alt="Foto de Alvaro Tajetti"></a>
+            </div>
+        </section>
+
+        <section class="ContainerSobre" id="Sobre">
+            <div class="ContainerSobreTexto">
+                <h1 style="font-size: 40px; padding-top: 1em;">SOBRE MIM</h1>
+                <p>Olá! Sou o Alvaro Francisco Tajetti Filho, estudante de
+                    Engenharia de
+                    Software, atualmente estou cursando o 2º período de
+                    Engenharia de Software.
+                    Tenho conhecimento em diversas linguagens de programação,
+                    como Java, HTML, CSS e MySQL, além de conhecimentos em
+                    desenvolvimento WEB e back-end. Estou sempre buscar de novas
+                    oportunidades para evoluir e aprender profissionalmente</p>
+            </div>
+        </section>
+
+        <section class="SectionHabilidades" id="Habilidades">
+            <div class="titleHabilidades">
+                <h1 style="font-size: 40px; padding-top: 2em;">HABILIDADES</h1>
+            </div>
+            <div class="ContainerHabilidades">
+                <div class="campo">
+                    <img src="assets/icon/html.png" alt>
+                    <h2>Html</h2>
+                </div>
+                <div class="campo">
+                    <img src="assets/icon/css-3.png" alt>
+                    <h2>Css</h2>
+                </div>
+                <div class="campo">
+                    <img src="assets/icon/java.png" alt>
+                    <h2>Java</h2>
+                </div>
+                <div class="campo">
+                    <img src="assets/icon/mysql.png" alt>
+                    <h2>Mysql</h2>
+                </div>
+                <div class="campo">
+                    <img src="assets/icon/php-programming-language.png" alt>
+                    <h2>PHP</h2>
+                </div>
+            </div>
+        </section>
+
+        <section class="PROJETOS" id="Projetos">
+            <div class="PROJETOS">
+                <div class="TitleProjetos">
+                    <h2>MEUS PROJETOS</h2>
+                </div>
+                <div class="ContainerAbaProjeto">
+                    <div class="ContainerProjeto">
+                        <a
+                            href="https://github.com/Tajetti/Projeto-AGenciaBold">
+                            <div class="image-wrapper">
+                                <img
+                                    src="assets/img/ImgProjetoPessoal/AgênciaBold.jpg"
+                                    alt="foto">
+
+                                <div class="title">Ver mais sobre Projeto
+                                    AGencia Bold</div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="ContainerProjeto">
+                        <div class="image-wrapper">
+                            <a
+                                href="https://github.com/Tajetti/Projeto-TecBlog">
+                                <img
+                                    src="assets/img/ImgProjetoPessoal/TecBlog.png"
+                                    alt="foto">
+                            </a>
+
+                            <div class="title">Ver mais sobre Tec Blog</div>
+                        </div>
+                    </div>
+                    <div class="ContainerProjeto">
+                        <div class="image-wrapper">
+                            <a
+                                href="https://github.com/Tajetti/Projeto---Ana-Bella">
+                                <img
+                                    src="assets/img/ImgProjetoPessoal/BlogAna.png"
+                                    alt="foto">
+                            </a>
+
+                            <div class="title">Ver mais sobre Blog Anna
+                                Bella</div>
+                        </div>
+                    </div>
+                    <div class="ContainerProjeto">
+                        <div class="image-wrapper">
+                            <a
+                                href="https://github.com/Tajetti/Projeto-Biblioteca">
+                                <img
+                                    src="assets/img/ImgProjetoPessoal/Screenshot_1.png"
+                                    alt="foto">
+                            </a>
+
+                            <div class="title">Ver mais sobre
+                                Biblioteca</div>
+                        </div>
+                    </div>
+                    <div class="ContainerProjeto">
+                        <div class="image-wrapper">
+                            <a
+                                href="https://github.com/Tajetti/Projeto-UNES-FACULDADE"><img
+                                    src="assets/img/ImgProjetoPessoal/Unes Faculdade.png"
+                                    alt="foto"></a>
+
+                            <div class="title">Ver mais sobre Unes
+                                Faculdades</div>
+                        </div>
+                    </div>
+                    <div class="ContainerProjeto">
+                        <div class="image-wrapper">
+                            <a
+                                href="https://github.com/Tajetti/Projeto-Chale-Hotel.-HTML-CSS-e-JS"><img
+                                    src="assets/img/ImgProjetoPessoal/Chalé Hotel.png"
+                                    alt="foto"></a>
+
+                            <div class="title">Ver mais sobre Chalé Hotel</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <section class="Contato" id="Contato">
+            <div class="TitleContato">
+                <h1>CONTATO</h1>
+            </div>
+            <div class="informacoes">
+                <div class="img-contato"><a target="_blank" rel="noopener"
+                        href="https://github.com/Tajetti"><img
+                            src="assets/icon/github.png" alt>
+                    </a>
+                </div>
+                <div class="img-contato"><a target="_blank"
+                        href="mailto:talhettialvaro@gmail.com">
+                        <img
+                            src="assets/icon/email.png" alt>
+                    </a>
+                </div>
+                <div class="img-contato">
+                    <a target="_blank"
+                        href="https://www.linkedin.com/in/alvarotalhetti"
+                        rel="noopener">
+                        <img
+                            src="assets/icon/linkedin.png" alt>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </body>
+</html>
