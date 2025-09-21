@@ -1,0 +1,67 @@
+/* ===== HEADER STYLES ===== */
+.header {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 2.5rem;
+    background-color: var(--roxo-escuro);
+    border-bottom: 1px solid var(--border-nav);
+    z-index: 999;
+}
+
+.header-logo {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: var(--verde-claro);
+}
+
+.header-logo a {
+    color: var(--verde-claro);
+    transition: color 0.3s ease;
+}
+
+.header-logo a:hover {
+    color: var(--cinza-claro-hover);
+}
+
+/* ===== NAVEGAÇÃO ===== */
+.nav-desktop {
+    display: none;
+    list-style: none;
+    gap: 1rem;
+}
+
+.nav-desktop li a {
+    color: var(--cinza-claro);
+    transition: color 0.3s ease;
+    padding: 0.5rem 0.75rem;
+    border-radius: 0.25rem;
+}
+
+.nav-desktop li a:hover {
+    color: var(--cinza-claro-hover);
+    background-color: rgba(100, 255, 218, 0.1);
+}
+
+.nav-desktop li a:active {
+    color: var(--cinza-claro-hover);
+}
+
+/* ===== RESPONSIVIDADE DO HEADER ===== */
+@media (min-width: 768px) {
+    .nav-desktop {
+        display: flex;
+    }
+}
+
+@media (min-width: 1024px) {
+    .header {
+        padding: 0.5rem 4rem;
+    }
+    
+    .nav-desktop {
+        gap: 1.5rem;
+    }
+}
+

@@ -1,0 +1,63 @@
+.competencia{
+    background-color: var(--azul-escuro);
+    height: auto;
+    padding: 30px;
+}
+
+.competencia-section{
+    width: auto;
+    max-width: 600px;
+    height: auto;
+    padding-bottom: 1rem;
+    margin: 2rem auto;
+    border-radius: 1rem;
+    background-color: var(--azul-claro);
+}
+
+.icon-competencia{
+    text-align: center;
+    padding-top: 1rem;
+}
+
+.title-competencia {
+    text-align: center;
+    font-weight: bold;
+    font-size: 0.785rem;
+}
+
+.competencia-section ul {
+    padding-left: 2rem;
+    margin: 1rem 0;
+    text-align: left;
+}
+
+.competencia-section li {
+    font-size: 0.785rem;
+    color: var(--cinza-escuro);
+}
+
+@media (min-width: 1024px) {
+    .competencias-sections{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 1rem;
+        width: auto;        
+    }
+    
+    .competencia-section{
+        width: auto;
+        min-width: 20rem;
+    }
+
+    .icon-competencia{
+        font-size: 2.25rem;
+    }
+
+    .title-competencia{
+        font-size: 1.25rem;
+    }
+    
+    .competencia-section li{
+        font-size: 1.2rem;
+    }
+}
