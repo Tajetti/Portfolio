@@ -6,7 +6,6 @@ Portfolio pessoal responsivo desenvolvido com HTML, CSS e JavaScript.
 
 - HTML5
 - CSS3 (Grid/Flexbox)
-- JavaScript
 - Design Responsivo
 
 ## 📁 Estrutura
@@ -14,7 +13,6 @@ Portfolio pessoal responsivo desenvolvido com HTML, CSS e JavaScript.
 ```
 portfolio/
 ├── index.html
-├── js/main.js
 ├── style/
 │   ├── global.css
 │   ├── header.css
