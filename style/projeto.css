@@ -79,6 +79,9 @@
 .socialmedia {
     color: var(--verde-claro);
     font-size: 0.75rem;
+    display: block;
+    margin-top: 0.7rem;
+    margin-left: 0.4rem;
 }
 
 .button-allProjects {
